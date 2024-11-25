@@ -9,3 +9,16 @@
     align-items: center;
     justify-content: center;
 }
+.swiper{
+    background-color: white;
+}
+
+.swiper-slide img{
+    border-radius: 30px;
+    box-shadow: 1px 1px 10px black;
+}
+
+.swiper-slide h1{
+    color: black;
+    font-weight: 600;
+}
