@@ -9,7 +9,7 @@ const Settings: React.FC = () => {
     return (
         <IonTabs>
             <IonTabBar slot='bottom'>
-                <IonTabButton href='/app/settings/tab1' tab='tab1'>
+                <IonTabButton href='/app/settings/tab1' tab='tab1' aria-label="Tab 1: First tab">
                     <IonIcon icon={triangle}/> Tab 1
                 </IonTabButton>
             </IonTabBar>
